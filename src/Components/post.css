@@ -1,0 +1,46 @@
+.post{
+    background-color:transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+input[type=text],[type=submit]{
+    width:50%;
+    margin:3px 0;
+    padding: 10px ;
+    display:inline-block;
+    border:2px solid burlywood;
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin-top: 1%;
+    margin-left: 12%;
+}
+.login-button{
+    width:50%;
+    color:rgb(4, 4, 3);
+    padding: 10px;
+    margin:8px 0;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button{
+    box-shadow: 11px 11px 11px rgb(44, 40, 43);
+    background-color: rgb(248, 240, 231);
+}
+.button:hover{
+    transition-duration: 0.3s;
+    background-color: rgb(252, 225, 185);
+}
+.login-form{
+    align-items: center;
+    margin-top: 100px;
+}
+.login-label,.button{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 12%;
+}

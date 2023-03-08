@@ -1,0 +1,17 @@
+body{
+    background-image: url("../Components/pic/pic7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+table,th,td{
+    border:2px solid black;
+    margin-left: 14%;
+    margin-top: 5%;
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+    font-size: 23px;
+    padding:5px 10px;
+}

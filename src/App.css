@@ -1,0 +1,51 @@
+.boutique{
+  background-image: url("../src/Components/pic/15\ Boutiques\ Taking\ Seattle\ Style\ From\ Athletic\ to\ Aesthetic.jfif");
+  background-repeat: no-repeat;
+  
+  background-position: center;
+  background-size: cover;
+  
+}
+pre{
+  margin-left: 1.2%;
+  margin-top: 0.01%;
+  text-align: left;
+  font-size: 45px;
+  font-weight: bolder;
+  font-style: italic;
+  color:white;
+}
+.bo{
+  height:100vh;
+  background-image: url("../src/Components/pic/photo-1.jfif");
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
+.b,.c,.d,.e{
+
+  margin-left: 800px;
+  margin-bottom: 5px;
+  width: 29%;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 40px;
+  background-color:transparent;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  padding:8px 14px;
+  display:inline-block;
+  cursor: pointer;
+  border:2px solid rgb(212, 10, 162);
+}
+.b:hover,.c:hover,.d:hover,.e:hover{
+  background-color:rgb(253, 173, 233);
+  color:rgb(0, 0, 0);
+}
+.b,.c,.d,.e{
+  transition-duration: 0.3s;
+}
+.b,.c,.d,.e{
+  box-shadow: 11px 11px 11px rgb(253, 173, 233);
+}
